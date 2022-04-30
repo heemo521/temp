@@ -1,0 +1,71 @@
+/*
+Layout
+Use CSS layout techniques to:
+
+Update the layout major components on the page
+Update the layout of each Tweet UI component's child elements
+so that they are intentionally arranged inside each Tweet.
+
+When you're finished, make a screen recording with QuickTime (or similar) and post it in the #twiddler-party channel in Slack to show it off!
+*/
+
+html, body, #app {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+#app {
+  background-color: grey;
+  color: yellow;
+}
+
+
+h1 {
+  margin: 0;
+}
+
+.icon {
+  color: white;
+  font-size: 24px;
+}
+
+.icon:hover {
+  color:lightgrey;
+  cursor: pointer;
+}
+
+
+.username {
+  font-size: 18px;
+  color:white;
+  cursor: pointer;
+}
+
+.username:hover {
+  color: lightgrey;
+}
+
+/*
+ background-color
+ border
+ border-radius
+ color
+ height
+ font-family
+ font-style
+ font-weight
+ margin
+ padding
+ text-align
+ width
+  */
+
+
+
+
